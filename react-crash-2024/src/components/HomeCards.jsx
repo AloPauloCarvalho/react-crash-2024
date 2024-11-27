@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import Card from '../components/Card.jsx'
 
 const HomeCards = () => {
@@ -22,12 +23,12 @@ const HomeCards = () => {
 							<p className="mt-2 mb-4">
 								List your job to find the perfect developer for the role
 							</p>
-							<a
+							<Link
 								href="/add-job.html"
 								className="inline-block bg-indigo-500 text-white rounded-lg px-4 py-2 hover:bg-indigo-600"
 							>
 								Add Job
-							</a>
+							</Link>
 						</Card>
 				</div>
 			</div>
